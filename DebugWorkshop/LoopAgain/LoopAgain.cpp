@@ -9,7 +9,7 @@ int main()
 	std::cout << "what is the size of the series? ";
 	std::cin >> size;
 
-	while (size >= 0)
+	while (size > 0) //size is an unsigned int variable and can not go below 0, and for 9 numbers we need to loop only until size > 0..
 	{
 		std::cout << t1 << ", ";
 
